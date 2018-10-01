@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Google(View view) {
-        Intent intent = new Intent();
+        Intent intent = new Intent(this,BrowserActivity.class);
         startActivity(intent);
 
     }
