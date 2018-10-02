@@ -12,20 +12,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dial No." />
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageCall"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginLeft="44dp"
+        android:src="@drawable/ic_call_black_24dp"
         android:layout_marginTop="84dp"
-        android:text="call" />
+         />
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_marginLeft="18dp"
-        android:inputType="number"
+        android:inputType="phone"
         android:ems="10" >
         <requestFocus />
     </EditText>

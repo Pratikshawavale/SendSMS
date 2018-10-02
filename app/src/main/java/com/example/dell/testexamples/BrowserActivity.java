@@ -24,6 +24,7 @@ public class BrowserActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String url=editText.getText().toString();
                 Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+               // intent.setData(Uri.parse("http://www.javatpoint.com"));
                 startActivity(intent);
             }
         });

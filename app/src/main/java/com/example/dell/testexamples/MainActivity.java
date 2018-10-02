@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Mail(View view) {
-        Intent intent = new Intent();
+        Intent intent = new Intent(this, MailActivity.class);
         startActivity(intent);
 
     }

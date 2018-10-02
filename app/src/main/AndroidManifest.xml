@@ -22,7 +22,8 @@
         </activity>
         <activity android:name=".CallingActivity" />
         <activity android:name=".SMSActivity" />
-        <activity android:name=".BrowserActivity"></activity>
+        <activity android:name=".BrowserActivity" />
+        <activity android:name=".MailActivity"></activity>
     </application>
 
 </manifest>
