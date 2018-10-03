@@ -37,9 +37,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Whatsapp(View view) {
-        Intent intent = new Intent();
+        Intent intent = new Intent(this ,WhatsAapActivity.class);
         startActivity(intent);
-
     }
 
     public void Facebook(View view) {

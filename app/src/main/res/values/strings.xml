@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TestExamples</string>
+    <string name="activity_name">Calling</string>
+    <string name="activity1_name">Message</string>
+    <string name="activity2_name">Browser</string>
+    <string name="activity3_name">Email</string>
+    <string name="activity4_name">WhatsApp/FaceBook</string>
 </resources>

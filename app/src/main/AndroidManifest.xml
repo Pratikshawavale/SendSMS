@@ -20,10 +20,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CallingActivity" />
-        <activity android:name=".SMSActivity" />
-        <activity android:name=".BrowserActivity" />
-        <activity android:name=".MailActivity"></activity>
+        <activity android:name=".CallingActivity"
+            android:label="@string/activity_name"
+            />
+        <activity android:name=".SMSActivity"
+            android:label="@string/activity1_name"
+            />
+        <activity android:name=".BrowserActivity"
+            android:label="@string/activity2_name"
+            />
+        <activity android:name=".MailActivity"
+            android:label="@string/activity3_name"
+            />
+        <activity android:name=".WhatsAapActivity"
+            android:label="@string/activity4_name"
+            ></activity>
     </application>
 
 </manifest>
