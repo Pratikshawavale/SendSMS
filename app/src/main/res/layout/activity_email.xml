@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     android:orientation="vertical"
-    tools:context=".MailActivity">
-
+    tools:context=".EmailActivity">
+    <ImageView
+        android:id="@+id/imageSend"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_send_black_24dp"
+        />
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
@@ -19,6 +25,7 @@
         />
     <EditText
         android:id="@+id/edtTo"
+        android:focusable="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"   />
@@ -55,11 +62,5 @@
         android:lines="10"
         android:gravity="start|top"/>
 
-    <Button
-        android:id="@+id/btnSend"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Send"/>
+
     </LinearLayout>

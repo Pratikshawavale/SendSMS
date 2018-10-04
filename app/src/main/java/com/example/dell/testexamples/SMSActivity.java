@@ -17,6 +17,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class SMSActivity extends AppCompatActivity {
@@ -24,7 +25,7 @@ public class SMSActivity extends AppCompatActivity {
     private  static final int REQUEST_SMS= 11;
 
         EditText mobileno,message;
-        Button sendsms;
+    ImageButton sendsms;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -47,6 +48,10 @@ public class SMSActivity extends AppCompatActivity {
                         if (checkPermission(Manifest.permission.SEND_SMS)){
                             SmsManager smsManager = SmsManager.getDefault();
                             smsManager.sendTextMessage(no, null,msg,null, null);
+                            message.setText( " " );
+                            mobileno.setText( " " );
+                            Toast.makeText(SMSActivity.this, "text massge deliverd", Toast.LENGTH_LONG).show();
+
                         }else {
                             Toast.makeText(SMSActivity.this, "Permmission denied", Toast.LENGTH_LONG).show();
                         }

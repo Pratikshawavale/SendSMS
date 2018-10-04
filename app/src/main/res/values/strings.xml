@@ -5,4 +5,6 @@
     <string name="activity2_name">Browser</string>
     <string name="activity3_name">Email</string>
     <string name="activity4_name">WhatsApp/FaceBook</string>
+    <string name="error_field_required">This field requerd</string>
+    <string name="error_invalid_email">This email address is invalid</string>
 </resources>
